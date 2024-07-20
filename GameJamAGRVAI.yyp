@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Anotações","folderPath":"folders/Anotações.yy","name":"Anotações","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Caminhos","folderPath":"folders/Caminhos.yy","name":"Caminhos","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -35,6 +35,7 @@
   "name":"GameJamAGRVAI",
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
