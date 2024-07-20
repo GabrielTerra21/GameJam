@@ -12,6 +12,14 @@ if (canJump-- > 0) && (_keyJump)
 	canJump = 0;
 }
 
+if (keyboard_check_pressed(vk_lshift)) {
+	hspWalk = hspWalk * 3
+}
+
+if (keyboard_check_released(vk_lshift)) {
+	hspWalk = 2
+}
+
 //Collide and shMove
 if (place_meeting(x + hsp, y, sWall))
 {
