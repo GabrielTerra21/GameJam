@@ -1,16 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"Objeto",
-  "eventList":[],
+  "%Name":"oSettings",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Objeto",
+  "name":"oSettings",
   "overriddenProperties":[],
   "parent":{
-    "name":"UI",
-    "path":"folders/UI.yy",
+    "name":"Objects",
+    "path":"folders/UI/Objects.yy",
   },
   "parentObjectId":null,
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -27,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"chisato",
-    "path":"sprites/chisato/chisato.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
