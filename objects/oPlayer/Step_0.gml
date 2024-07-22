@@ -45,6 +45,6 @@ if (place_meeting(x, y + vsp, oWall))
 }
 y += vsp;
 
-//Gun
+//acoplar a Gun no personagem
 oGun.x=x+sprite_width/20;
 oGun.y=y+sprite_height/20;
