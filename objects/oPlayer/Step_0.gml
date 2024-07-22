@@ -1,5 +1,5 @@
-var _keyRight = keyboard_check(vk_right);
-var _keyLeft = keyboard_check(vk_left);
+var _keyRight = keyboard_check(ord("D"));
+var _keyLeft = keyboard_check(ord("A"));
 var _keyJump = keyboard_check_pressed(vk_space);
 
 hsp = (_keyRight - _keyLeft) * hspWalk;
@@ -44,3 +44,7 @@ if (place_meeting(x, y + vsp, oWall))
 	vsp = 0;
 }
 y += vsp;
+
+//Gun
+oGun.x=x+sprite_width/20;
+oGun.y=y+sprite_height/20;

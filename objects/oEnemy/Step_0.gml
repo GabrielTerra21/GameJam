@@ -12,7 +12,7 @@ if runaway=false && chase=false && distance_to_object(oPlayer) < 200 {
 
 // New proximity trigger for chase
 if chase=true && runaway=false && distance_to_object(oPlayer) < 400{
-	move_towards_point(oPlayer.x,oPlayer.y,);
+	move_towards_point(oPlayer.x,oPlayer.y,5);
 }
 
 // If char is more than 400 pixels away, stop chase
