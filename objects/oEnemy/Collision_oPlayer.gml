@@ -4,8 +4,8 @@ runaway=true;
 justrun=false;
 alarm_set(0,40);
 
-// Removes one health point after collision of enemy and char objects
-health -= 1;
+
+//restartar room 
 if health < 1 {
    room_restart();
 }

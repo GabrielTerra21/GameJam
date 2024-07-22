@@ -5,4 +5,6 @@ hspWalk = 2.0;
 hspRun = 4.0;
 vspJump = -6;
 canJump = 0;
-health = 10;
+health = 1;
+recently_hit = false
+room_speed = 60

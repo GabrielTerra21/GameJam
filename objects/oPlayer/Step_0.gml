@@ -48,3 +48,4 @@ y += vsp;
 //acoplar a Gun no personagem
 oGun.x=x+sprite_width/20;
 oGun.y=y+sprite_height/20;
+

@@ -2,3 +2,4 @@
 chase=true;
 runaway=false;
 invincible=false
+
