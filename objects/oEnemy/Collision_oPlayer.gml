@@ -5,11 +5,6 @@ justrun=false;
 alarm_set(0,40);
 
 
-//restartar room 
-if health < 1 {
-   room_restart();
-}
-
 // Moves instance away from char (Provides Object Overlap Protection)
 var dir;
 var move_dis = 32;  // pixels to move away from other object in collision
