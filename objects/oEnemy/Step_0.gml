@@ -1,7 +1,7 @@
 // AI Movement Logic
 
 if justrun=true {
-	move_towards_point(oPlayer.x,oPlayer.y,2);
+	move_towards_point(oPlayer.x, y,2);
 } else {
 
 // Proximity Trigger
