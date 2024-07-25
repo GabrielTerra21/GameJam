@@ -15,4 +15,8 @@ healthbarH = 12;
 healthbarX = (1080/2) - (healthbarW/2);
 healthbarY = (720/4);
 
+firedeplayed=0;
 
+friction =.5;
+
+bullet_direction = 0;

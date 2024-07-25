@@ -45,7 +45,21 @@ if (place_meeting(x, y + vsp, oWall))
 }
 y += vsp;
 
-//acoplar a Gun no personagem
-oGun.x=x+sprite_width/20;
-oGun.y=y+sprite_height/20;
 
+if _keyLeft {
+	sprite_index = sPlayer_L;
+	bullet_direction = 0
+}
+
+if _keyRight {
+	sprite_index = sPlayer_R;
+	bullet_direction = 1;
+}
+
+firedeplayed=firedeplayed-1;
+//criar o oBullet quando clicar
+if(keyboard_check(ord("J"))&&(firedeplayed<1))
+{
+	instance_create_layer(x,y,"bullet",oBullet);
+	firedeplayed=6;
+}

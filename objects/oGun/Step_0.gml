@@ -1,7 +1,11 @@
 //mouse mudar a direcao
-var _dir = point_direction(x, y, mouse_x, mouse_y);
-var _diff = angle_difference(_dir, image_angle);
-image_angle += _diff * 0.1;
+if keyboard_check(ord("D")) {
+	oGun.visible = true;
+}
+
+if keyboard_check(ord("A")) {
+	oGun.visible = false;
+}
 
 firedeplayed=firedeplayed-1;
 

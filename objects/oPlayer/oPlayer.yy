@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPlayer3",
-    "path":"sprites/sPlayer3/sPlayer3.yy",
+    "name":"sPlayer_L",
+    "path":"sprites/sPlayer_L/sPlayer_L.yy",
   },
   "spriteMaskId":null,
   "visible":true,
